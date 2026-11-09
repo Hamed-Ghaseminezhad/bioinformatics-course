@@ -11,3 +11,4 @@ notebooks/cifar_net.pth
 *.fasta.bwt
 *.fasta.pac
 *.fasta.sa
+*.fasta.fai
