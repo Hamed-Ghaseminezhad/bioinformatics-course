@@ -5,7 +5,7 @@
   },
   "waitFor": "onCreateCommand",
   "updateContentCommand": "python3 -m pip install -r requirements.txt",
-  "postCreateCommand": "conda install --solver=classic -c conda-forge -c bioconda fastqc multiqc -y",
+  "postCreateCommand": "conda install --solver=classic -c conda-forge -c bioconda fastqc multiqc bwa samtools -y",
   "customizations": {
     "codespaces": {
       "openFiles": []

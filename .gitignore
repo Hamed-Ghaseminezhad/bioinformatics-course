@@ -2,4 +2,12 @@ notebooks/data
 notebooks/cifar_net.pth
 .ipynb_checkpoints/
 *.fastq.gz
-*.fastq
+*.fastq*.sam
+*.sam
+*.bam
+*.bai
+*.fasta.amb
+*.fasta.ann
+*.fasta.bwt
+*.fasta.pac
+*.fasta.sa
