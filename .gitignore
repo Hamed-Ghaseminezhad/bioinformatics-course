@@ -1,14 +1,12 @@
-notebooks/data
-notebooks/cifar_net.pth
-.ipynb_checkpoints/
-*.fastq.gz
-*.fastq*.sam
-*.sam
-*.bam
-*.bai
-*.fasta.amb
-*.fasta.ann
-*.fasta.bwt
-*.fasta.pac
-*.fasta.sa
-*.fasta.fai
+# Nextflow files and directories
+.nextflow/
+.nextflow.log*
+work/
+results/
+
+# Raw data and results
+data/
+
+# OS generated files
+.DS_Store
+.vscode/
